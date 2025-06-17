@@ -1,0 +1,27 @@
+:root {
+  --bg-color: #fff;
+  --text-color: #000;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease-out, color 0.3s ease-out;
+  font-family: "Lexend", sans-serif;
+}
+
+.hero-heading {
+  font-size: clamp(6.25rem, 13.514vw + -1.858rem, 12.5rem);
+  line-height: clamp(6.25rem, 13.514vw + -1.858rem, 12.5rem);
+  font-family: "Lexend", sans-serif;
+}
+
+.texto-felizcumple {
+  font-family: "Lexend", sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none;
+  }
+}
